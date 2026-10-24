@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - run: unzip -q StandVisualMini.zip
+      - run: unzip -q .github/workflows/StandVisualMini-1.zip
       - uses: actions/setup-java@v4
         with:
           distribution: temurin
